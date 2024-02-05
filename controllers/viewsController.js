@@ -33,3 +33,4 @@ exports.getLoginForm = (req, res) => {
 exports.login = (req, res) => {
   console.log("hello from the login endpoint");
 };
+exports.status = () => {};

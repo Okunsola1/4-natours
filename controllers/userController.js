@@ -25,6 +25,11 @@ exports.updateMe = catchAsync(async (req, res, next) => {
         400
       )
     );
+
+    exports.createUser = catchAsync(async (req, res, next) => {
+      if (req.body.params || req.body.p) {
+      }
+    });
   }
 
   // filter out unwanted fields names that are not allowed to be updated
